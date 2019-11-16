@@ -42,7 +42,7 @@
         hit: new Audio("sounds/hit.wav"),
         enemyHit: new Audio("sounds/enemy-hit.wav"),
         die: new Audio("sounds/die.wav"),
-        fireball: new Audio("sounds/lightning.wav"),
+        fireball: new Audio("sounds/fireball.wav"),
         lightning: new Audio("sounds/lightning.wav"),
         pop: new Audio("sounds/pop.wav")
       }
@@ -50,7 +50,7 @@
 
     var characters = {
       hero: privateFunctions.createItem("images/main-character.png", game.width / 3, game.height / 2, 0, {top: 25, right: 25, bottom: 20, left: 20}),
-      fireball: privateFunctions.createItem("images/attack-lightning.png", 0, 0, 0, {top: 5, right: 5, bottom: 5, left: 5}),
+      fireball: privateFunctions.createItem("images/attack-fireball.png", 0, 0, 0, {top: 5, right: 5, bottom: 5, left: 5}),
       lightning: privateFunctions.createItem("images/attack-lightning.png", 0, 0, 0, {top: 15, right: 20, bottom: 15, left: 20}),
       title: privateFunctions.createItem("images/title.jpg", 0, 0)
     };
